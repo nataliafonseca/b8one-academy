@@ -1,0 +1,44 @@
+.block {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: black;
+}
+
+.block-1 {
+  /* position: relative; */
+  top: 10px;
+  left: 10px;
+  /* right: 10px; */
+  /* bottom: 10px; */
+}
+
+.container {
+  position: relative;
+  max-width: 720px;
+}
+
+.block-2 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+}
+
+.block-3 {
+  background: blue;
+}
+
+.block-4 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  /* top: 50%; */
+  /* right: 0; */
+  background: yellow;
+  /* transform: translateY(-50%); */
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.block-5 {
+  background: brown;
+}

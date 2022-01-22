@@ -1,0 +1,12 @@
+.block-1 {
+  display: inline-block;
+  max-width: 50px;
+  width: 100px;
+  max-height: 20px;
+  height: 100px;
+  /* background: #ff0000; */
+  background-image: url("../images/paisagem.jpg");
+  background-size: contain; /* cover */
+  background-repeat: no-repeat;
+  background-position: center;
+}

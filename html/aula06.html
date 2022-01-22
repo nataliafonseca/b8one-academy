@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Aula 06 - b8one.academy</title>
+  </head>
+  <body>
+    <form action="url" method="POST">
+      <label for="firstNameInput">Seu nome</label>
+      <input
+        type="text"
+        name="firstName"
+        placeholder="Digite seu primeiro nome"
+        id="firstNameInput"
+        required
+      />
+
+      <label for="ageInput">Sua idade</label>
+      <input
+        type="number"
+        name="age"
+        min="18"
+        max="65"
+        placeholder="Digite sua idade"
+        id="ageInput"
+      />
+
+      <label for="emailInput">Seu e-mail</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Digite seu email"
+        id="emailInput"
+      />
+
+      <select name="gender" id="genderField">
+        <option value="gender" disabled>Selecione seu gênero</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outros">Outros</option>
+      </select>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
